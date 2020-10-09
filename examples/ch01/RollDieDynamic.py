@@ -27,8 +27,8 @@ def update(frame_number, rolls, faces, frequencies):
         axes.text(text_x, text_y, text, ha='center', va='bottom')
 
 # read command-line arguments for number of frames and rolls per frame
-number_of_frames = int(sys.argv[1])  
-rolls_per_frame = int(sys.argv[2])  
+number_of_frames = 6000 #int(sys.argv[1])  
+rolls_per_frame = 100 #int(sys.argv[2])  
 
 sns.set_style('whitegrid')  # white backround with gray grid lines
 figure = plt.figure('Rolling a Six-Sided Die')  # Figure for animation
